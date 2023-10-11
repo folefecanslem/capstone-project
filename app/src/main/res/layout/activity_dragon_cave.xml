@@ -4,16 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:textAlignment="center"
     tools:context=".dragonCave">
 
     <Button
         android:id="@+id/green"
         android:layout_width="233dp"
         android:layout_height="64dp"
+        android:layout_marginStart="99dp"
         android:layout_marginTop="218dp"
+        android:layout_marginEnd="79dp"
         android:text="green"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="99dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/blue"
@@ -53,5 +57,20 @@
         android:text="gold"
         app:layout_constraintEnd_toEndOf="@+id/black"
         app:layout_constraintStart_toStartOf="@+id/black"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="360dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="546dp"
+        android:text="welcome, chose your grave"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

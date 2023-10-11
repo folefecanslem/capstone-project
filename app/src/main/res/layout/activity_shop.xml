@@ -12,7 +12,11 @@
         android:layout_height="55dp"
         android:layout_marginStart="91dp"
         android:layout_marginTop="263dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="413dp"
         android:text="buy"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -20,9 +24,11 @@
         android:id="@+id/sell"
         android:layout_width="263dp"
         android:layout_height="66dp"
+        android:layout_marginTop="358dp"
         android:layout_marginBottom="307dp"
         android:text="sell"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/buy"
-        app:layout_constraintStart_toStartOf="@+id/buy" />
+        app:layout_constraintStart_toStartOf="@+id/buy"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
