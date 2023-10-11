@@ -4,20 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/light_yellow"
     tools:context=".MainActivity">
 
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="88dp"
-        android:layout_height="22dp"
-        android:layout_marginStart="144dp"
+        android:layout_width="294dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="76dp"
         android:layout_marginTop="243dp"
         android:layout_marginBottom="466dp"
         android:text="welcome to ..."
+        android:textSize="28sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/textView2"
@@ -25,8 +28,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="292dp"
         android:text="what would you like to do"
+        android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="@+id/textView"
-        app:layout_constraintHorizontal_bias="0.385"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/textView"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -34,9 +38,11 @@
         android:id="@+id/inventory"
         android:layout_width="172dp"
         android:layout_height="43dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="344dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="404dp"
+        android:backgroundTint="@color/black"
         android:text="inventory"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -45,6 +51,8 @@
         android:layout_width="172dp"
         android:layout_height="43dp"
         android:text="shop"
+        android:textSize="20sp"
+        android:backgroundTint="@color/black"
         app:layout_constraintEnd_toEndOf="@+id/inventory"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/inventory"
@@ -55,6 +63,8 @@
         android:layout_width="172dp"
         android:layout_height="43dp"
         android:text="Dragon cave"
+        android:backgroundTint="@color/black"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@+id/shop"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/shop"
@@ -65,6 +75,8 @@
         android:layout_width="172dp"
         android:layout_height="43dp"
         android:text="quit"
+        android:textSize="20sp"
+        android:backgroundTint="@color/black"
         app:layout_constraintEnd_toEndOf="@+id/cave"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/cave"

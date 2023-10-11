@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/light_yellow"
     tools:context=".shop">
 
     <Button
@@ -15,6 +16,8 @@
         android:layout_marginEnd="51dp"
         android:layout_marginBottom="413dp"
         android:text="buy"
+        android:textSize="20sp"
+        android:backgroundTint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,6 +30,8 @@
         android:layout_marginTop="358dp"
         android:layout_marginBottom="307dp"
         android:text="sell"
+        android:textSize="20sp"
+        android:backgroundTint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/buy"
         app:layout_constraintStart_toStartOf="@+id/buy"

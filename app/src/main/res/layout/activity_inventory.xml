@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/light_yellow"
     tools:context=".inventory">
 
     <CheckBox
@@ -12,7 +13,8 @@
         android:layout_height="41dp"
         android:layout_marginTop="36dp"
         android:layout_marginBottom="384dp"
-        android:text="potions"
+        android:text="Potions"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/checkBox"
         app:layout_constraintHorizontal_bias="0.0"
@@ -27,7 +29,8 @@
         android:layout_marginTop="228dp"
         android:layout_marginEnd="132dp"
         android:layout_marginBottom="462dp"
-        android:text="weapons"
+        android:text="Weapons"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -39,7 +42,8 @@
         android:layout_height="47dp"
         android:layout_marginTop="52dp"
         android:layout_marginBottom="285dp"
-        android:text="amor"
+        android:text="Amor"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/checkBox2"
         app:layout_constraintHorizontal_bias="0.0"
@@ -52,6 +56,8 @@
         android:layout_height="49dp"
         android:layout_marginBottom="185dp"
         android:text="selected"
+        android:textSize="20sp"
+        android:backgroundTint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/checkBox3"
         app:layout_constraintStart_toStartOf="@+id/checkBox3" />
