@@ -3,9 +3,9 @@ package com.example.capstone_project;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class player extends AppCompatActivity {
+    private static int health;
     private int attack;
     private int defense;
-    private int health;
     private int gold;
 
     public player(int attack, int defense, int health, int gold) {
