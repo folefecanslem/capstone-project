@@ -11,4 +11,9 @@ public class inventory extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_inventory);
     }
+
+    public static int getTotalWeaponDamage() {
+        return 0;
+    }
+
 }

@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">capstone-project</string>
+    <string name="green">green</string>
+    <string name="blue">blue</string>
+    <string name="red">red</string>
+    <string name="gold">gold</string>
 </resources>
