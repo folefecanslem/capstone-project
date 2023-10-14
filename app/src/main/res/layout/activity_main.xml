@@ -60,10 +60,10 @@
 
     <Button
         android:id="@+id/cave"
-        android:layout_width="172dp"
+        android:layout_width="238dp"
         android:layout_height="43dp"
-        android:text="Dragon cave"
         android:backgroundTint="@color/black"
+        android:text="Dragon cave"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@+id/shop"
         app:layout_constraintHorizontal_bias="0.0"
